@@ -188,7 +188,8 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\GvrCursorHelper.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\SuppressMemoryAllocationErrorAttribute.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
-    <Compile Include="Assets\spin.cs" />
+    <Compile Include="Assets\Scripts\InputSystem.cs" />
+    <Compile Include="Assets\Scripts\spin.cs" />
     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\HeightBlendNormalx5.shader" />
     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\custom terrain Diffuse fade.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
@@ -769,6 +770,12 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>E:/Program Files/Unity/Hub/Editor/2019.1.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{576AE186-2561-2EA8-BC27-E8E34CB0D26A}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
