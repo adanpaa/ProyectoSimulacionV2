@@ -188,6 +188,7 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\GvrCursorHelper.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\SuppressMemoryAllocationErrorAttribute.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+    <Compile Include="Assets\PlayerGrab.cs" />
     <Compile Include="Assets\Scripts\InputSystem.cs" />
     <Compile Include="Assets\Scripts\spin.cs" />
     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\HeightBlendNormalx5.shader" />

@@ -1,10 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp-firstpass.dll:
+    - UnityStandardAssets.Utility.WaypointCircuit
+    - UnityStandardAssets.Utility.WaypointProgressTracker
     - UnityStandardAssets.Vehicles.Car.BrakeLight
+    - UnityStandardAssets.Vehicles.Car.CarAIControl
     - UnityStandardAssets.Vehicles.Car.CarAudio
     - UnityStandardAssets.Vehicles.Car.CarController
-    - UnityStandardAssets.Vehicles.Car.CarUserControl
     - UnityStandardAssets.Vehicles.Car.Mudguard
     - UnityStandardAssets.Vehicles.Car.SkidTrail
     - UnityStandardAssets.Vehicles.Car.Suspension
@@ -12,21 +14,13 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - GvrAllEventsTrigger
     - GvrEditorEmulator
-    - GvrPointerGraphicRaycaster
     - GvrPointerInputModule
-    - GvrPointerPhysicsRaycaster
     - GvrReticlePointer
-    - InputSystem
     - spin
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.EventTrigger
-    - UnityEngine.UI.Button
-    - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.RawImage
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -74,45 +68,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9468}
     - Class: 114
-      Script: {instanceID: 9484}
+      Script: {instanceID: 9486}
     - Class: 114
-      Script: {instanceID: 9524}
+      Script: {instanceID: 9666}
     - Class: 114
-      Script: {instanceID: 9526}
+      Script: {instanceID: 9800}
     - Class: 114
-      Script: {instanceID: 9534}
+      Script: {instanceID: 9872}
     - Class: 114
-      Script: {instanceID: 9538}
+      Script: {instanceID: 9880}
     - Class: 114
-      Script: {instanceID: 9568}
+      Script: {instanceID: 10092}
     - Class: 114
-      Script: {instanceID: 9664}
+      Script: {instanceID: 10216}
     - Class: 114
-      Script: {instanceID: 9796}
+      Script: {instanceID: 10220}
     - Class: 114
-      Script: {instanceID: 9868}
+      Script: {instanceID: 10346}
     - Class: 114
-      Script: {instanceID: 10072}
+      Script: {instanceID: 10504}
     - Class: 114
-      Script: {instanceID: 10188}
+      Script: {instanceID: 10556}
     - Class: 114
-      Script: {instanceID: 10458}
+      Script: {instanceID: 10578}
     - Class: 114
-      Script: {instanceID: 10468}
+      Script: {instanceID: 10848}
     - Class: 114
-      Script: {instanceID: 10508}
-    - Class: 114
-      Script: {instanceID: 10520}
-    - Class: 114
-      Script: {instanceID: 10540}
-    - Class: 114
-      Script: {instanceID: 10776}
-    - Class: 114
-      Script: {instanceID: 10806}
-    - Class: 114
-      Script: {instanceID: 10870}
-    - Class: 114
-      Script: {instanceID: 15876}
+      Script: {instanceID: 10914}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -130,12 +112,6 @@ ScriptsOnlyBuild:
     - Class: 199
       Script: {instanceID: 0}
     - Class: 218
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
       Script: {instanceID: 0}
     - Class: 1953259897
       Script: {instanceID: 0}
@@ -206,6 +182,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: EventSystemChecker
   - hash:
       serializedVersion: 2
       Hash: 84b31b71fcfc0d02bf4204522ea292b1
@@ -634,6 +616,12 @@ ScriptsOnlyBuild:
     className: GvrArmModel
   - hash:
       serializedVersion: 2
+      Hash: e540a01426f9ad59088593bf72bcd255
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: TimedObjectActivator
+  - hash:
+      serializedVersion: 2
       Hash: ff7d3100dcac4699fa2b5abb996d38b1
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleVR.Demos
@@ -688,6 +676,12 @@ ScriptsOnlyBuild:
     className: WheelEffects
   - hash:
       serializedVersion: 2
+      Hash: 303da015e9d1de9fdb27bbc2ba279ebd
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: WaypointProgressTracker
+  - hash:
+      serializedVersion: 2
       Hash: ed916f285d5522ec5ceb6eccef8d0072
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleVR.VideoDemo
@@ -700,7 +694,7 @@ ScriptsOnlyBuild:
     className: GvrKeyboard
   - hash:
       serializedVersion: 2
-      Hash: 48fc73544216c1b392049b0573d62ea8
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Vehicles.Car
     className: CarUserControl
@@ -718,10 +712,28 @@ ScriptsOnlyBuild:
     className: AnalyticsTracker
   - hash:
       serializedVersion: 2
+      Hash: db1f205a8c9dae1c39098cd23fc97f63
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: ParticleSystemDestroyer
+  - hash:
+      serializedVersion: 2
+      Hash: 22c018dd8fa228e66d586ea6215449b3
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: SimpleMouseRotator
+  - hash:
+      serializedVersion: 2
       Hash: 0fb27be807aa299702f28ad0bcad1f46
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: DragRigidbody
   - hash:
       serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
@@ -740,6 +752,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.CrossPlatformInput
     className: Joystick
+  - hash:
+      serializedVersion: 2
+      Hash: 4f631fd718256a8c69483c396671a274
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: PlatformSpecificContent
+  - hash:
+      serializedVersion: 2
+      Hash: 0574135745ea880aa1c1be2f2057ab89
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: ActivateTrigger
   - hash:
       serializedVersion: 2
       Hash: 4bd1cc3c85989d2213a9a8fd9d09e63f
@@ -784,6 +808,24 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: a4d879eed97e8d86fd752672fc026fa2
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: AutoMoveAndRotate
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: ForcedReset
+  - hash:
+      serializedVersion: 2
+      Hash: f8bd7a92bf9f22d289759689ae7b1fd4
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: SmoothFollow
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.Analytics.Editor.dll
     namespaceName: UnityEditor.Analytics
@@ -806,6 +848,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.CrossPlatformInput
     className: MobileControlRig
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: ObjectResetter
   - hash:
       serializedVersion: 2
       Hash: f694021fab526c14fbd3efebc16d5eba
@@ -854,6 +902,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleVR.Beta
     className: GvrBetaHeadset
+  - hash:
+      serializedVersion: 2
+      Hash: 9a40de0f5a84ec02044ccfb05875df71
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: WaypointCircuit
   - hash:
       serializedVersion: 2
       Hash: 3f8d7b92a6be3c715e55d5cfa7cc8384
@@ -928,10 +982,22 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: AlphaButtonClickMask
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c933b2cffdb9d1429a103e9d63c523ef
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: DynamicShadowSettings
   - hash:
       serializedVersion: 2
       Hash: 1cbb684877139a8fcd5903f27462e898
@@ -944,6 +1010,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GvrHeadset
+  - hash:
+      serializedVersion: 2
+      Hash: 03b9ef2ed536e8d6280069f2195174da
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: SimpleActivatorMenu
   - hash:
       serializedVersion: 2
       Hash: daa6a65fb0f785335ff43e9998133a34
@@ -1012,6 +1084,12 @@ ScriptsOnlyBuild:
     className: AudioTrack
   - hash:
       serializedVersion: 2
+      Hash: 49dcb3939f87870ac10cf1f8fcdfb35e
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: FollowTarget
+  - hash:
+      serializedVersion: 2
       Hash: 89c433fef753b02de32958d7fe54cc06
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1028,6 +1106,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.CrossPlatformInput
     className: TouchPad
+  - hash:
+      serializedVersion: 2
+      Hash: a8cd58c1680eb5251e5604e560cf89e9
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: TimedObjectDestructor
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1096,6 +1180,12 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: FPSCounter
+  - hash:
+      serializedVersion: 2
       Hash: f0077b931a26a7eeaf5e245c7ef51ec4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1160,6 +1250,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 47cd05cf11ce8beb2fd9a1522f58f5ec
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityStandardAssets.Utility
+    className: AutoMobileShaderSwitch
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
