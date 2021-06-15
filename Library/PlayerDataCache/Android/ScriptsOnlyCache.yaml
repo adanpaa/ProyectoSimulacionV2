@@ -2,11 +2,21 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp-firstpass.dll:
     - UnityStandardAssets.Utility.WaypointCircuit
+    - UnityStandardAssets.Utility.WaypointProgressTracker
+    - UnityStandardAssets.Vehicles.Car.BrakeLight
+    - UnityStandardAssets.Vehicles.Car.CarAIControl
+    - UnityStandardAssets.Vehicles.Car.CarAudio
+    - UnityStandardAssets.Vehicles.Car.CarController
+    - UnityStandardAssets.Vehicles.Car.Mudguard
+    - UnityStandardAssets.Vehicles.Car.SkidTrail
+    - UnityStandardAssets.Vehicles.Car.Suspension
+    - UnityStandardAssets.Vehicles.Car.WheelEffects
     Assembly-CSharp.dll:
     - GvrEditorEmulator
     - GvrPointerInputModule
     - GvrReticlePointer
     - PlayerGrab
+    - RESTART
     - spin
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -42,14 +52,26 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 95
+      Script: {instanceID: 0}
+    - Class: 96
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9458}
+    - Class: 114
+      Script: {instanceID: 9468}
+    - Class: 114
+      Script: {instanceID: 9486}
     - Class: 114
       Script: {instanceID: 9536}
     - Class: 114
@@ -59,28 +81,40 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9800}
     - Class: 114
+      Script: {instanceID: 9872}
+    - Class: 114
+      Script: {instanceID: 9880}
+    - Class: 114
+      Script: {instanceID: 10216}
+    - Class: 114
+      Script: {instanceID: 10220}
+    - Class: 114
       Script: {instanceID: 10346}
     - Class: 114
+      Script: {instanceID: 10504}
+    - Class: 114
       Script: {instanceID: 10552}
+    - Class: 114
+      Script: {instanceID: 10558}
     - Class: 114
       Script: {instanceID: 10580}
     - Class: 114
       Script: {instanceID: 10850}
     - Class: 114
       Script: {instanceID: 10916}
+    - Class: 114
+      Script: {instanceID: 10932}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
-    - Class: 154
-      Script: {instanceID: 0}
-    - Class: 156
+    - Class: 146
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
-    - Class: 218
+    - Class: 198
       Script: {instanceID: 0}
-    - Class: 1953259897
+    - Class: 199
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1165,6 +1199,12 @@ ScriptsOnlyBuild:
     className: GvrPointerInputModule
   - hash:
       serializedVersion: 2
+      Hash: d091f873f2261f7b63e8fed32284e031
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RESTART
+  - hash:
+      serializedVersion: 2
       Hash: 8649814970b42d345b89944b862453cc
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1232,4 +1272,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: E:/User/Documents/Unity/ProyectoFinalVr/Builds/Proyectovr4.apk
+  playerPath: E:/User/Documents/Unity/ProyectoFinalVr/Builds/Proyectovr5.apk
