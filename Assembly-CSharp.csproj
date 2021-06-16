@@ -191,10 +191,6 @@
     <Compile Include="Assets\PlayerGrab.cs" />
     <Compile Include="Assets\Scripts\InputSystem.cs" />
     <Compile Include="Assets\Scripts\RESTART.cs" />
-    <Compile Include="Assets\Scripts\RESTART2.cs" />
-    <Compile Include="Assets\Scripts\RESTART3.cs" />
-    <Compile Include="Assets\Scripts\RESTART4.cs" />
-    <Compile Include="Assets\Scripts\RESTART5.cs" />
     <Compile Include="Assets\Scripts\spin.cs" />
     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\HeightBlendNormalx5.shader" />
     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\custom terrain Diffuse fade.shader" />
