@@ -7444,8 +7444,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempo_start: 0
-  tiempo_end: 20
-  escena: 0
+  tiempo_end: 5
+  n: 2
 --- !u!1001 &1654327733
 PrefabInstance:
   m_ObjectHideFlags: 0

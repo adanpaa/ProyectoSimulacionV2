@@ -4,12 +4,12 @@ using UnityEngine;
 
 using UnityEngine.SceneManagement;
 
-public class RESTART : MonoBehaviour
+public class RESTART3 : MonoBehaviour
 {
     public float tiempo_start = 0.0f; //Los segundos por los quales comienza i la variable que utilizaremos para que vaya contando segundos.
     public float tiempo_end = 5.0f;//Segundos que queremos que pasen para que cambie de escena
                                    // Update is called once per frame
-    public int n = 2;
+    public int n = 4;
 
 
     void Update()
