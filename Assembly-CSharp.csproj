@@ -64,6 +64,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Animals\Common\Common_AnimationControl.cs" />
+    <Compile Include="Assets\Animals\Common\Common_AnimSpeed.cs" />
+    <Compile Include="Assets\Animals\Common\Common_KillSwitch.cs" />
+    <Compile Include="Assets\Animals\Common\Common_PlaySound.cs" />
+    <Compile Include="Assets\Animals\Common\Common_RandomInt.cs" />
+    <Compile Include="Assets\Animals\Common\RandomCharacterPlacer.cs" />
+    <Compile Include="Assets\Animals\Common\Wander Script\AIState.cs" />
+    <Compile Include="Assets\Animals\Common\Wander Script\AIStats.cs" />
+    <Compile Include="Assets\Animals\Common\Wander Script\Common_AudioManager.cs" />
+    <Compile Include="Assets\Animals\Common\Wander Script\Common_SurfaceRotation.cs" />
+    <Compile Include="Assets\Animals\Common\Wander Script\Common_WanderManager.cs" />
+    <Compile Include="Assets\Animals\Common\Wander Script\Common_WanderScript.cs" />
+    <Compile Include="Assets\Animals\Common\Wander Script\IdleState.cs" />
+    <Compile Include="Assets\Animals\Common\Wander Script\MovementState.cs" />
+    <Compile Include="Assets\Animals\Low Poly Animated Animals\- Scripts\AnimalAudioManager.cs" />
+    <Compile Include="Assets\Animals\Low Poly Animated Animals\- Scripts\AnimalPlaySound.cs" />
+    <Compile Include="Assets\Animals\Low Poly Animated Animals\- Scripts\AnimalWanderManager.cs" />
+    <Compile Include="Assets\Animals\Low Poly Animated Animals\- Scripts\SceneAnimatorController.cs" />
+    <Compile Include="Assets\Animals\Low Poly Animated Animals\- Scripts\ToggleEvent.cs" />
+    <Compile Include="Assets\Animals\Low Poly Animated Animals\- Scripts\Wander Script\Animal_AIStats.cs" />
+    <Compile Include="Assets\Animals\Low Poly Animated Animals\- Scripts\Wander Script\Animal_SurfaceRotation.cs" />
+    <Compile Include="Assets\Animals\Low Poly Animated Animals\- Scripts\Wander Script\Animal_WanderScript.cs" />
+    <Compile Include="Assets\CivilCharactersPack\Scripts\CharacterCustomization.cs" />
+    <Compile Include="Assets\CivilCharactersPack\Scripts\UIControllerDEMO.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoObjectController6DoF.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoSeeThroughController.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Scripts\GvrBetaControllerInput.cs" />
@@ -192,13 +216,34 @@
     <Compile Include="Assets\Scripts\InputSystem.cs" />
     <Compile Include="Assets\Scripts\RESTART.cs" />
     <Compile Include="Assets\Scripts\spin.cs" />
+    <Compile Include="Assets\SWS\Examples\Scripts\CameraInputDemo.cs" />
+    <Compile Include="Assets\SWS\Examples\Scripts\EventCollisionTrigger.cs" />
+    <Compile Include="Assets\SWS\Examples\Scripts\EventReceiver.cs" />
+    <Compile Include="Assets\SWS\Examples\Scripts\PathInputDemo.cs" />
+    <Compile Include="Assets\SWS\Examples\Scripts\RapidInputDemo.cs" />
+    <Compile Include="Assets\SWS\Examples\Scripts\RotationHelper.cs" />
+    <Compile Include="Assets\SWS\Examples\Scripts\RuntimeDemo.cs" />
+    <Compile Include="Assets\SWS\Examples\Scripts\ShowcaseGUI.cs" />
+    <Compile Include="Assets\SWS\Scripts\Helper\MoveAnimator.cs" />
+    <Compile Include="Assets\SWS\Scripts\Helper\PathIndicator.cs" />
+    <Compile Include="Assets\SWS\Scripts\Helper\PathRenderer.cs" />
+    <Compile Include="Assets\SWS\Scripts\Manager\BezierPathManager.cs" />
+    <Compile Include="Assets\SWS\Scripts\Manager\PathManager.cs" />
+    <Compile Include="Assets\SWS\Scripts\Manager\WaypointManager.cs" />
+    <Compile Include="Assets\SWS\Scripts\Movement\navMove.cs" />
+    <Compile Include="Assets\SWS\Scripts\Movement\splineMove.cs" />
+    <None Include="Assets\SWS\README.txt" />
+    <None Include="Assets\SWS\Extensions\DOTween\DOTween43.xml" />
     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\HeightBlendNormalx5.shader" />
     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\custom terrain Diffuse fade.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\custom terrain Bump fade addpass.shader" />
+    <None Include="Assets\SWS\Extensions\DOTween\DOTween46.xml" />
     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\custom terrain Bump fade.shader" />
+    <None Include="Assets\_www.unityassetcollection.com.txt" />
     <None Include="Assets\laxer Assets\Terrain Shader\AddOn1\4x UV_Mixing.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
+    <None Include="Assets\SWS\Extensions\DOTween\readme.txt" />
     <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\HeightBlendx5.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
@@ -211,6 +256,7 @@
     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\HeightBlendSpecularx4.shader" />
+    <None Include="Assets\SWS\Changelog.txt" />
     <None Include="Assets\BrokenVector\LowPolyShaders\Shaders\LowPolyPBRShader.shader" />
     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\HeightBlendRGB.shader" />
     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
@@ -220,6 +266,7 @@
     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
     <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
+    <None Include="Assets\SWS\Extensions\DOTween\DOTween50.xml" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -426,6 +473,18 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/DOTween50.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>E:/Program Files/Unity/Hub/Editor/2019.1.14f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

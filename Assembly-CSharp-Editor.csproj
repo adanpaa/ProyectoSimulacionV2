@@ -64,6 +64,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Animals\Common\Wander Script\Editor\Common_StatsTable.cs" />
+    <Compile Include="Assets\Animals\Common\Wander Script\Editor\Common_WanderManagerEditor.cs" />
+    <Compile Include="Assets\Animals\Common\Wander Script\Editor\Common_WanderScriptEditor.cs" />
+    <Compile Include="Assets\Animals\Low Poly Animated Animals\- Scripts\Wander Script\Editor\Animals_WanderScriptEditor.cs" />
     <Compile Include="Assets\GoogleVR\Demos\Editor\DemoInputManagerEditor.cs" />
     <Compile Include="Assets\GoogleVR\Demos\Editor\PermissionsDemoBuildProcessor.cs" />
     <Compile Include="Assets\GoogleVR\Editor\Controller\GvrControllerVisualEditor.cs" />
@@ -77,6 +81,15 @@
     <Compile Include="Assets\GoogleVR\Editor\GvrEditorSettings.cs" />
     <Compile Include="Assets\GoogleVR\Editor\GvrHeadsetEditor.cs" />
     <Compile Include="Assets\GoogleVR\Editor\InstantPreviewEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\AboutSWSEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\BezierPathEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\CreateWPManager.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\moveEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\navMoveEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\PathEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\ReviewWindowEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\splineMoveEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\WaypointEditor.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -322,6 +335,21 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/Editor/DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/DOTween50.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>E:/Program Files/Unity/Hub/Editor/2019.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
