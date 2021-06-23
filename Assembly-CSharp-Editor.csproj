@@ -321,6 +321,21 @@
     <Reference Include="Google.ProtocolBuffers">
       <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/Editor/DOTweenEditor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -335,21 +350,6 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween43">
-      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/DOTween43.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween46">
-      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/DOTween46.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenEditor">
-      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/Editor/DOTweenEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween50">
-      <HintPath>E:/User/Documents/Unity/ProyectoFinalVr/Assets/SWS/Extensions/DOTween/DOTween50.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>E:/Program Files/Unity/Hub/Editor/2019.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
