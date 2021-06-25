@@ -212,8 +212,10 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\GvrCursorHelper.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\SuppressMemoryAllocationErrorAttribute.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
-    <Compile Include="Assets\PlayerGrab.cs" />
+    <Compile Include="Assets\Scripts\Crash.cs" />
+    <Compile Include="Assets\Scripts\crashwoman.cs" />
     <Compile Include="Assets\Scripts\InputSystem.cs" />
+    <Compile Include="Assets\Scripts\PlayerGrab.cs" />
     <Compile Include="Assets\Scripts\RESTART.cs" />
     <Compile Include="Assets\Scripts\spin.cs" />
     <Compile Include="Assets\SWS\Examples\Scripts\CameraInputDemo.cs" />
