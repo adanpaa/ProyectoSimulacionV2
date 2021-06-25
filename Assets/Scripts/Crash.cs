@@ -19,7 +19,7 @@ public class Crash : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "House_07 (1)")
+        if (collision.gameObject.name == "House_07 (1)" || collision.gameObject.name == "Car_6_Silver")
         {
             crash.Play();
         }

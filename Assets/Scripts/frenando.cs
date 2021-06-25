@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class crashwoman : MonoBehaviour
+public class frenando : MonoBehaviour
 {
     public AudioSource crash;
     // Start is called before the first frame update
@@ -19,7 +19,7 @@ public class crashwoman : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "CarWaypointBased")
+        if (collision.gameObject.name == "RoadBlock_D (2)")
         {
             crash.Play();
         }
