@@ -5,6 +5,8 @@ using UnityEngine;
 public class Crash : MonoBehaviour
 {
     public AudioSource crash;
+    public string obj1 = "House_07 (1)";
+    public string obj2 = "Car_6_Silver";
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +21,7 @@ public class Crash : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "House_07 (1)" || collision.gameObject.name == "Car_6_Silver")
+        if (collision.gameObject.name ==obj1 || collision.gameObject.name == obj2)
         {
             crash.Play();
         }

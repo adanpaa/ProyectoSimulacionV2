@@ -5,6 +5,7 @@ using UnityEngine;
 public class frenando : MonoBehaviour
 {
     public AudioSource crash;
+    public string obj1 = "RoadBlock_D (2)";
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,7 @@ public class frenando : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "RoadBlock_D (2)")
+        if (collision.gameObject.name == obj1)
         {
             crash.Play();
         }
