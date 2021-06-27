@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerGrab : MonoBehaviour
 {
@@ -30,6 +31,7 @@ public class PlayerGrab : MonoBehaviour
                 ball.transform.SetParent(null);
                 ball.transform.localPosition = ballPos;
                 inHands = false;
+                SceneManager.LoadScene("Escena1"); 
             }
         }
     }
