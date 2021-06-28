@@ -8604,7 +8604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiempo_start: 0
   tiempo_end: 10
-  n: 1
+  n: 77
 --- !u!1001 &1654327733
 PrefabInstance:
   m_ObjectHideFlags: 0
